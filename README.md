@@ -19,7 +19,7 @@ For examples of this, see [dockerfile/haproxy](http://www.github.com/dockerfile/
 
 #### Customizing Haproxy
 
-    docker run -d -e "ETCD_ADDR=127.0.0.1:4001" -p 80:80 -v <override-dir>:/haproxy-override dockerfile/haproxy
+    docker run -d -e "ETCD_ADDR=127.0.0.1:4001" -p 80:80 -v <override-dir>:/haproxy-override treehau5/haproxy-confd
 
 where `<override-dir>` is an absolute path of a directory that could contain:
 
@@ -28,7 +28,7 @@ where `<override-dir>` is an absolute path of a directory that could contain:
 
 #### Customizing Confd
 
-    docker run -d -e "ETCD_ADDR=127.0.0.1:4001" -p 80:80 -v <override-dir>:/confd-override dockerfile/haproxy
+    docker run -d -e "ETCD_ADDR=127.0.0.1:4001" -p 80:80 -v <override-dir>:/confd-override treehau5/haproxy-confd
     
     where `<override-dir>` is an absolute path of a directory that could contain:
 
