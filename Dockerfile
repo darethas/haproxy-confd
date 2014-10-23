@@ -1,9 +1,11 @@
 #
 # Haproxy-Confd Dockerfile
 #
-# https://github.com/dockerfile/haproxy
+# https://github.com/treehau5/haproxy-confd
 # 
 # Dimitrios Arethas
+#
+# relies on https://github.com/dockerfile/haproxy
 
 # Pull base image.
 FROM dockerfile/haproxy
