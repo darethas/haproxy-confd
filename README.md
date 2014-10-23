@@ -11,4 +11,4 @@ ex: `docker run -e "ETCD_ADDR=127.0.0.1:4001" treehau5/haproxy-confd`
 
 Pass an override directory with the `-v` flag in the `docker run` command.
 
-For examples of this, see [github.com/dockerfile/haproxy](dockerfile/haproxy)
+For examples of this, see github.com/dockerfile/haproxy
