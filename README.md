@@ -30,7 +30,7 @@ where `<override-dir>` is an absolute path of a directory that could contain:
 
     docker run -d -e "ETCD_ADDR=127.0.0.1:4001" -p 80:80 -v <override-dir>:/confd-override treehau5/haproxy-confd
     
-    where `<override-dir>` is an absolute path of a directory that could contain:
+where `<override-dir>` is an absolute path of a directory that could contain:
 
   - `templates/`: templates for your confd to generate based on additions to the etcd backend
   - `conf.d/`: containing your template resource configs in toml format
